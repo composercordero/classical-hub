@@ -1,12 +1,13 @@
 import { useState } from 'react'
+import HeaderHero from './components/Header/HeaderHero'
+import Body from './components/Body/Body'
 
 
 function App() {
 
   return (
     <>
-      <Header />
-      <Hero />
+      <HeaderHero />
       <Body />
     </>
   )
