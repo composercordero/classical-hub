@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import HeaderHero from './components/Header/HeaderHero'
+import Header from './components/Header/Header'
 import Body from './components/Body/Body'
 
 
@@ -7,10 +7,11 @@ function App() {
 
   return (
     <>
-      <HeaderHero />
+      <main className='flex flex-col justify-start items-center'>
+      <Header />
       <Body />
+      </main>
     </>
   )
 }
-
 export default App

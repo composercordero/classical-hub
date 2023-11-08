@@ -1,22 +1,18 @@
-import Arrow from './Arrow'
 import classes from './SearchBar.module.css'
+import Arrow from './Arrow';
 
 const SearchBar = () => {
     return(<>
-        <form>
-            <div className={classes.form}>
-                <div>
-
-                    <div className={classes.formImage}>
-                        <img />
-                    </div>
+        <div className='flex items-center justify-center grow'>
+        <form className='w-full'>
+            <div className='flex items-center'>
                     
-                    <div className={classes.formInput}>
+                    <div className='flex'>
                         <input 
                             type="text"
                             placeholder="Enter the name or the organization, instruments, or address"
-                            />
-                        <label>What are you looking for?</label>
+                            className='rounded-3xl p-5 px-10'
+                        />
                     </div>
 
                     <div>
@@ -24,10 +20,10 @@ const SearchBar = () => {
                             <Arrow />
                         </button>
                     </div>
-                </div>
             </div>
 
         </form>
+        </div>
     </>)
 };
 
