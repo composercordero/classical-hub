@@ -2,7 +2,7 @@
 const Button = (props) => {
     return(<>
         <button
-            className='bg-white py-2 px-8 rounded-3xl'
+            className='btn btn-neutral m-1'
         >{props.children}</button>
     </>)
 };
