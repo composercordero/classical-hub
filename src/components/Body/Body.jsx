@@ -1,4 +1,5 @@
 import example from '../../assets/hero_austin.png'
+import EventCard from './EventCard';
 
 
 const Body = () => {
@@ -13,9 +14,7 @@ const Body = () => {
         <div className='col-span-9 p-6'>
             <h1 className='text-4xl font-semibold'>Events</h1>
             <div className="divider"></div> 
-            <h3>Title</h3>
-            <img src={example} className=''/>
-            <p>Description</p>
+            <EventCard title='Conspirare in the Waterloo Park' image={example} description='This is the description of an event'/>
         </div>
     </div>
 
