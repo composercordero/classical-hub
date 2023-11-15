@@ -1,6 +1,6 @@
 import Hero from "./Hero";
-import classes from './HeaderHero.module.css'
 import bg from '../../assets/hero_austin.png'
+import Button from '../UI/Button/Button'
 
 const Header = () => {
     return(<>
@@ -13,8 +13,8 @@ const Header = () => {
             </div>
 
             <div className='flex gap-5'>
-                <button>Sign In</button>
-                <button>Sign Up</button>
+                <Button>Sign In</Button>
+                <Button>Sign Up</Button>
             </div>
         </header>
         <div className='p-20 justify-center'>
