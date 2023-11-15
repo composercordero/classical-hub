@@ -25,7 +25,7 @@ const Header = () => {
 
                 <ul tabIndex={0} className="dropdown-content z-[1] p-2 shadow-2xl bg-base-300 rounded-box w-52">
                     <ThemeList label='Winter' value='winter' />
-                    <ThemeList label='Retro' value='retro' />
+                    <ThemeList label='Custom' value='custom' />
                     <ThemeList label='Valentine' value='valentine' />
                     <ThemeList label='Dark' value='dark' />
                     <ThemeList label='Light' value='light' />

@@ -15,6 +15,8 @@ const Body = () => {
             <h1 className='text-4xl font-semibold'>Events</h1>
             <div className="divider"></div> 
             <EventCard title='Conspirare in the Waterloo Park' image={example} description='This is the description of an event'/>
+            <div className='divider'></div>
+            <EventCard title='Conspirare in the Waterloo Park' image={example} description='This is the description of an event'/>
         </div>
     </div>
 
