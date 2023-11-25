@@ -9,7 +9,17 @@ const EventCard = (props) => {
 
                 <div className='col-span-4'>
                     <EventTitle>{props.title}</EventTitle>
-                    <p>{props.description}</p>
+
+                    <div className='flex gap-5 pb-5'>
+                        <p><b>Cost:</b> {props.cost}</p>
+                        <p><b>Date:</b> {props.date}</p>
+                        <p><b>Time:</b> {props.time}</p>
+                    </div>
+
+                        <p><b>Description:</b> {props.description}</p>
+                    
+                    <a className='button'>More info</a>
+
                 </div>
             </div>
             

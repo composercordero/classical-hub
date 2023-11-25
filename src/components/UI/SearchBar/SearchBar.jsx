@@ -7,16 +7,16 @@ const SearchBar = () => {
         <form className='w-full'>
             <div className='flex items-center'>
                     
-                    <div className='flex'>
+                    <div className='grow'>
                         <input 
                             type="text"
-                            placeholder="Enter the name or the organization, instruments, or address"
-                            className='rounded-3xl p-5 px-10'
+                            placeholder="Enter the name or the organization"
+                            className='rounded-full p-5 px-10'
                         />
                     </div>
 
-                    <div>
-                        <button>
+                    <div className='max-w-full'>
+                        <button className='relative max-w-full m-0 p-0 inline-flex w-xl '>
                             <Arrow />
                         </button>
                     </div>
