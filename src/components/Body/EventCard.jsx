@@ -11,9 +11,9 @@ const EventCard = (props) => {
                     <EventTitle>{props.title}</EventTitle>
 
                     <div className='flex gap-5 pb-5'>
-                        <p><b>Cost:</b> {props.cost}</p>
                         <p><b>Date:</b> {props.date}</p>
                         <p><b>Time:</b> {props.time}</p>
+                        <p><b>Cost:</b> {props.cost}</p>
                     </div>
 
                         <p><b>Description:</b> {props.description}</p>
