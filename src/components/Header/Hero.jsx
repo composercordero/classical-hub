@@ -1,4 +1,3 @@
-import SearchBar from "../UI/SearchBar/SearchBar";
 
 const Hero = () => {
     return(<>
@@ -7,7 +6,6 @@ const Hero = () => {
                 Discover your next concert.
             </h1>
 
-            <SearchBar />
         </div>
     </>)
 };
